@@ -1,0 +1,56 @@
+body {
+	font-family: calibri;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+header {
+	height: 25%;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: orangered;
+	font-size: 40px;
+}
+
+div {
+	height: 10%;
+	background-color: orangered;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px 150px;
+}
+
+a {
+	color: orangered;
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	border: 5px solid brown;
+	font-size: 30px;
+}
+
+main {
+	height: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+footer {
+	height: 10%;
+	background-color: orangered;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+	padding: 0px 150px;
+	font-size: 20px;
+	color: white;
+}
